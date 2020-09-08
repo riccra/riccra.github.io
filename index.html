@@ -2,23 +2,364 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="favicon.ico">
-    <title>Welcome</title>
-    <style>body {margin: 0;padding: 0;}</style>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="riccra">
+	
+    <title>riccra - Welcome to my site</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+	
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/ekko-lightbox.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
   </head>
+
   <body>
-    <noscript>
-      <strong>We're sorry but the site doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app">
-<h1>Welcome</h1>
-<p>There is not much here at the momemnt, but come by soon.</p>
-<p>Cheers</p>
-<p>Ariccra</p>
-</div>
+  <div id="boxWrapp">
+    <div class="main-nav clearfix">
+	  <!-- navbar -->
+	<nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavCol">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand bg-primary" href="#about">riccra</a>
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="NavCol">
+         <ul class="nav navbar-nav navbar-right">
+           
+            <li class="current"><a href="#about" class="linear">Home</a></li>
+            <li><a href="#aboutMore" class="linear">About</a></li>
+            <li><a href="#work" class="linear">Work</a></li>
+            <li><a href="#contact" class="linear">Contact</a></li>
+          </ul>
+        
+         
+        </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+	  
+	</div>
+    <!-- Full Page Image Header Area -->
+    <div id="about" class="header">
+
+	<div class="maskHeader"></div>
+	<div class="main-caption">
+		<div class="logo">
+			<img src="img/home.png" width="150px" alt="logo" />
+		</div>
+			<!-- slider -->
+	<div id="flex-head" class="flexslider">
+		<ul class="slides">
+			<li>
+				<h1>Welcome</h1>	
+				<h2>Take a look around and let's talk about your next project</h2>
+			</li>
+			<li>
+				<h1>I'm a Freelancer</h1>	
+				<h2>Passionate about solving problems with clarity, simplicity & honestly</h2>
+			</li>
+			<li>
+				<h1>And I'm a Web Designer</h1>	
+				<h2>Design & Build Beautiful Crafted Web Experiences</h2>	
+			</li>
+		</ul>
+	</div> 
+    <!-- end slider --> 
+		<a href="#aboutMore" class="btn btnAbout btn-clear border-color color-primary btn-lg linear">READ MORE</a>
+	</div><!--  end main caption -->
+			
+    </div>
+	<!-- end header -->
+    <!-- /Full Page Image Header Area -->
+
+    
+    <!-- content -->
+    <div id="aboutMore" class="page">
+      <div class="container">
+
+		<div class="row">
+          <div class="col-md-10  col-md-offset-1">
+		    <div class="build title-page">
+				<h2 class="text-center">About</h2>	
+				<div class="line-title bg-primary"></div>
+			</div>
+		   </div><!-- end col -->
+		</div><!-- end row -->
+		
+        <div class="row">
+           <div class="col-md-6">
+			   <div class="build main-about">
+				   <div class="row">
+				       <div class="col-md-3">
+				            <div class="main-avatar text-center">
+				                <div class="avatar img-thumbnail img-circle">
+				                <img src="https://avatars2.githubusercontent.com/u/64359809?s=460&u=dc3f56066b80631a0f1ae046c577ce54b6d22d55&v=4" alt="avatar" />
+				                </div>
+				            </div>
+				            
+				       </div>
+				       <div class="col-md-9">
+				            <div class="about-content">
+						<p>Hello, I'm a freelance consultant, designer & developer based in the UK. I Love designing and developing websites as much I  love to traveling. 
+							I have been developing software solutions for more than 15 years & would love to help you take your product to the next level.</p>
+						<a href="#contact" class="btn btn-clear btn-lg border-color linear hire">AVAILABLE TO HIRE</a>
+					</div>
+				       </div>
+				   </div>
+				  
+					
+				</div>
+            </div><!-- end col -->
+		  
+        <div class="col-md-6">
+                <div class="build progressbar-a">
+                    <div class="wrapp-progress">
+                        <p class="pull-left">AWS and Online Services</p> 
+                        <div class="progress">
+                          
+                          <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                            <span class="precent-value"></span>
+							<i class="fa fa-caret-down"></i>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="wrapp-progress">
+                        <p class="pull-left">Websites HTML & CSS</p> 
+                        <div class="progress">
+                          
+                          <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                            <span class="precent-value"></span>
+							<i class="fa fa-caret-down"></i>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="wrapp-progress">
+                        <p class="pull-left">Data Science, ML & AI</p> 
+                        <div class="progress">
+                          
+                          <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                           <span class="precent-value"></span>
+						   <i class="fa fa-caret-down"></i>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="wrapp-progress">
+                        <p class="pull-left">System Consultancy</p> 
+                        <div class="progress">
+                          
+                          <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                           <span class="precent-value"></span>
+						   <i class="fa fa-caret-down"></i>
+                          </div>
+                        </div>
+					</div>
+					
+				
+                </div>
+            </div>
+        </div><!-- end row -->
+      </div>
+      </div>
+    
+    <!-- /Intro -->   
+
+    <!-- Portfolio -->
+    <div id="work" class="page clearfix">
+      <div class="container">
+		<div class="row">
+          <div class="col-md-10  col-md-offset-1">
+		    <div class="build title-page">
+				<h2 class="text-center">LATEST WORK</h2>	
+				<div class="line-title bg-primary"></div>
+			</div>
+		   </div><!-- end col -->
+		</div><!-- end row -->
+		   <div class="col-md-12">
+                
+                <ul id="filterOptions" class="clearfix">
+                    <li class="cur"><a class="btn btn-link linear" href="#" data-group="all">All</a></li>
+                    <li><span>/</span></li>
+                    <li><a class="btn btn-link linear" href="#" data-group="web">Web</a></li>
+					<li><span>/</span></li>
+                    <li><a class="btn btn-link linear" href="#" data-group="data">Data Science</a></li> 
+                    
+                </ul>
+               
+            </div><!--end-col-->
+		  <div class="col-md-12">
+		  <div class="folio-content clearfix">
+		   <div class="row">
+		   <div class="container_folio clearfix gallery" id="grid">
+			<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "web"]'>
+			<div class="folio-img">
+				<div class="portfolio-item ">
+					<div class="thumbnail">
+					   <div class="thumb-img">
+					  
+					  <div class="link-attr">
+						    <a href="img/portfolio/fba.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Fiji British Academy needed a new cost effective website, and I wanted to try using AWS S3 web hosting with Route 53 Domain routing." class="link-search animated linear"><i class="fa fa-search"></i></a>
+						   <a href="#" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
+					   </div>
+						<img class="linear img-portfolio img-responsive" src="img/portfolio/fba.jpg" alt="Fiji British Academy website ">
+					  
+					   
+					   <div class="folio-caption">
+					   <i class="fa fa-caret-up"></i>
+					       <p>Fiji British Academy</p>
+					      
+					   </div>
+					   </div>
+					</div>
+				
+				</div>
+			</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "data"]'>
+				<div class="folio-img">
+					<div class="portfolio-item">
+						<div class="thumbnail">
+						<div class="thumb-img">
+						 <div class="link-attr">
+						    <a href="img/portfolio/gdpr.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="GDPR data processing using python scripts and Elasticsearch to demonstrate the data held by big tech companies." class="link-search animated linear"><i class="fa fa-search"></i></a>
+						   <a href="#" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
+					   </div>
+						<img class="linear img-portfolio img-responsive" src="img/portfolio/gdpr.jpg" alt="GDPR Map">
+						 <div class="link"><a href="#">GDPR Data Processing</a></div>
+						<div class="folio-caption">
+						<i class="fa fa-caret-up"></i>
+					       <p>GDPR Data Processing</p>
+					   </div>
+						</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "web"]'>
+				<div class="folio-img">
+					<div class="portfolio-item">
+						<div class="thumbnail">
+						<div class="thumb-img">
+						<div class="link-attr">
+						    <a href="img/portfolio/rh.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Github offered web hosting for your developer portfolio for FREE, so I had to create a page!" class="link-search animated linear"><i class="fa fa-search"></i></a>
+						   <a href="#" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
+					   </div>
+						 <img class="linear img-portfolio img-responsive" src="img/portfolio/rh.jpg" alt="Github offered web hosting for your developer portfolio for FREE, so I had to create a page!">
+						   <div class="link"><a href="#">riccra.github.io</a></div>
+						   <div class="folio-caption">
+						   <i class="fa fa-caret-up"></i>
+					       <p>riccra.github.io</p>
+					       </div>
+					       </div>
+						</div>
+					    
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+	
+			
+		  
+		   
+		  
+		   </div>
+		  </div><!-- end folio content -->
+		  </div><!-- end col -->
+      </div><!--end container-->
+	 
+	 
+    </div>
+    <!-- /Portfolio -->
+    
+    <!--contact-->
+    <div id="contact" class="page page-bgcolor">
+		<div class="container">
+		<div class="row">
+          <div class="col-md-10  col-md-offset-1">
+		    <div class="build title-page">
+				<h2 class="text-center">GET IN TOUCH</h2>	
+				<div class="line-title bg-primary"></div>
+			</div>
+		   </div><!-- end col -->
+		</div><!-- end row -->
+	  	<div class="row">
+			<div class="col-md-6 ">
+				<div class="build contact clearfix text-center">
+					<span class="fa fa-map-marker"></span>
+						<p>London, UK<p>
+				</div>			
+			</div><!-- end col -->
+			
+			
+			<div class="col-md-6 ">
+				<div class="build contact clearfix text-center">
+					<span class="fa fa-envelope"></span>
+					<p>email.riccra@mailismagic.com</p>
+				</div>
+			</div>
+		</div><!-- end row -->
+	
+	  </div><!-- end container -->
+	</div>
+    <!--contact-->
+    
+    <!-- Footer -->
+    <footer class="bg-black">
+      <div class="container">
+        <div class="row">
+			<div class="col-md-6 ">
+				<div class="cp-right">
+					<p>&copy; 2020 <a href="https://riccra.github.io/" class="color-primary linear">riccra</a>.  </p>
+				</div><!-- end build -->
+			</div><!-- end col -->
+			
+			<div class="col-md-6 text-right">
+		
+			<ul class="list-inline">
+			<li><a href="https://github.com/riccra" class="socIcon color-primary linear"><i class="fa fa-github fa-2x"></i></a></li>
+			</ul>
+		
+			</div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/jquery.sticky.js" ></script>
+	 <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.js" ></script>
+    <script src="js/jquery.flexslider.js" ></script>
+   <script type="text/javascript" src="js/ekko-lightbox.js"></script>
+   <script src="js/jquery.easing.1.3.js" ></script>
+   <script src="js/jquery.shuffle.js" ></script>
+    <script src="js/script.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+
+  </div>
   </body>
+
 </html>
