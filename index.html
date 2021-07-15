@@ -10,38 +10,53 @@
 		<title>Welcome to riccra.com - Software services for mobile and cloud</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			html, body, div {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			}
+			
+			body {
+				background: #f0f4f4;
+				
+			transition: background .5s; /* .5s how long transitions shoould take cubic-bezier(1,0,0,1) infinite */
+			-webkit-animation: background 10s infinite;
+  			animation: background 10s infinite;   
+			
+			}
+			@-webkit-keyframes background {
+  0% { background-color: #f0f4f4; }
+  33% { background-color: #aaa; }  
+  67% { background-color: #bbb; }
+  100% { background-color: #f0f4f4; }
+}
+
+@keyframes background {
+  0% { background-color: #f0f4f4; }
+  33% { background-color: #aaa; }  
+  67% { background-color: #bbb; }
+  100% { background-color: #f0f4f4; }
+}
+
+			img {
+				width: 30%;
+  				position: absolute;
+  				top: 50%;
+  				left: 50%;
+  				transform: translate(-50%, -50%);
+			}
+
+		</style>
+
 	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
-
-			<!-- Header -->
-				<div id="header">
-
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<h1><a href="index.html" id="logo" class="image featured"><img src="images/logo.png" style="width:200px"></a></h1>
+	<body>
+		<div>
+			<a href="index.html"><img src="logo.png"></a>
 							
-								<p> </p>
-							</header>
-						</div>
-				</div>
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		</div>
 	</body>
 </html>
 <!--
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+ (c) 2021 RICCRA
 -->
